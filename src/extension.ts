@@ -41,8 +41,9 @@ function removeSelectedLineBreak() {
     var selection = editor.selection;
     var text = editor.document.getText(selection);
 
+    let hyphenReg = new RegExp(/-\r?\n|\r/g);
     let reg = new RegExp(/\r?\n|\r/g);
-    var newText = text.replace(reg, ' ');
+    var newText = text.replace(hyphenReg, '').replace(reg, ' ');
 
     editor.edit(function (edit) {
         edit.replace(selection, newText);

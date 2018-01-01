@@ -2,7 +2,7 @@
     "name": "wytools",
     "displayName": "wytools",
     "description": "personal tools. ",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "wynny",
     "engines": {
         "vscode": "^1.19.0"
