@@ -25,7 +25,7 @@
         "keybindings": [
             {
                 "command": "extension.removeLineBreak",
-                "key": "Alt+W+R"
+                "key": "Alt+W R"
             }
         ]
     },
