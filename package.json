@@ -11,14 +11,21 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.removeLineBreak"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.removeLineBreak",
+                "title": "remove line break",
+                "description": "Remove line break from selction."
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.removeLineBreak",
+                "key": "Alt+W+R"
             }
         ]
     },
