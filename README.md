@@ -17,6 +17,10 @@ Will break word.
 
 Nothing.
 
+### 0.0.2
+
+consider hyphen.
+
 ### 0.0.1
 
 Initial release of wytools
